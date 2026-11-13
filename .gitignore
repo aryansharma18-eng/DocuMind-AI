@@ -1,0 +1,18 @@
+# Python virtual environments
+.venv/
+.venv-test/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# React
+node_modules/
+dist/
+
+# Generated data
+uploads/
+chroma_db/
